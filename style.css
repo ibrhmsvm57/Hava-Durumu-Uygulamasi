@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; 
+}
+
+.weather-app {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+.search-box {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#city-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #9d0202;
+    border-radius: 5px 0 0 5px;
+}
+
+#search-btn {
+    padding: 10px 15px;
+    background-color: #07478c;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.weather-info {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    /* Başlangıçta boş olacak */
+}
+
+/* API'den veri gelince dinamik olarak doldurulacak stiller */
+.city-name {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.temp {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ff5722; 
+}
+
+.description {
+    font-size: 20px;
+    margin-top: 10px;
+}
